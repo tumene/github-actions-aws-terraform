@@ -5,6 +5,6 @@ module "cloudfront" {
   s3_www_website_endpoint = module.s3.s3_www_website_endpoint
   acm_cert_domain = var.acm_cert_domain
   providers = {
-    aws = aws.us_east_1
+    aws = aws.us_east_2
   }
 }
